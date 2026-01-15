@@ -1,20 +1,59 @@
-# Realtime Chat Application
+# Real-time Chat Application
 
-### [Live Site](https://realtime-chat-application.netlify.com)
+## Overview
 
-### [🌟 Become a top 1% Next.js developer in only one course](https://jsmastery.pro/next15)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+This is a full-stack real-time chat application built with modern web technologies. The application demonstrates best practices for implementing real-time bidirectional communication between clients and servers.
 
-![Chat Application](https://i.ytimg.com/vi/ZwFA3YMfkoc/maxresdefault.jpg)
+## Technology Stack
 
-## Introduction
-This is a code repository for the corresponding video tutorial. 
+**Frontend:**
+- React with TypeScript
+- Tailwind CSS for styling
+- Socket.io client library for real-time communication
 
-In this video, we will create a full Realtime Chat Application. We're going to use  React on the front end, with NodeJS + Socket.io web socket library on the back end. 
+**Backend:**
+- Node.js with Express
+- Socket.io for WebSocket support
 
-By the end of this video, you will have a strong understanding of how to send and receive messages using web sockets and Socket.io to make any real-time application.
+## Features
 
-## Launch your development career with project-based coaching - https://www.jsmastery.pro
+- Real-time message delivery
+- User authentication and registration
+- Typing indicators
+- Message read receipts
+- User presence awareness
+- Responsive design
 
-Setup:
-- run ```npm i && npm start``` for both client and server side to start the development server
+## Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Install dependencies for both client and server:
+   ```bash
+   # Client
+   cd client
+   npm install
+   
+   # Server
+   cd server
+   npm install
+   ```
+
+2. Start the development servers:
+   ```bash
+   # Client
+   npm start
+   
+   # Server
+   npm start
+   ```
+
+The application will be available at `http://localhost:3000`.
+
+## Development
+
+This project uses Docker for containerized deployment. Refer to the `docker-compose.yml` for production setup instructions.
